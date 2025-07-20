@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Gator';
+    src: url('./Gator3a-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+body, p {
+    font-family: 'Gator';
+    font-size: 20vh;
+}
+
+
 .content {
     max-width: 800px;
     margin: 0 auto;
@@ -5,13 +19,6 @@
     padding: 16px;
 }
 
-@font-face {
-    font-family: 'Gator';
-    src: url('./Gator3-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    text-align: center;
-}
 
 img.wrap-left {
     float: left;
