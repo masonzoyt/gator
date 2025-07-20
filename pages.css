@@ -1,0 +1,50 @@
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 16px;
+}
+
+@font-face {
+    font-family: 'Gator';
+    src: url('./Gator3-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+img.wrap-left {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+img.wrap-right {
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 8px;
+    }
+    img.wrap-left, img.wrap-right {
+        float: none;
+        display: block;
+        margin: 0 auto 16px auto;
+        width: 100%;
+        max-width: 300px;
+    }
+    p {
+        font-size: 1.05em;
+    }
+} 

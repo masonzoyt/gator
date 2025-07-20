@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+    <div class="iflost">
+        <p>IF LOST, PLEASE RETURN TO:</p> <!-- make this arial or whatever would be printed in the inside cover-->
+    </div>
+    <div class="name">
+        <p>PERCY S PURSUIT</p>
+        <p>420 Scout Lane, Fan Srancisco, Kalifornia</p>
+        <p>put percy phone number here</p>
+    </div>
+    <div class "nextpage">
+        <p>next page</p>
+    </div>
+</body>
+</html> 

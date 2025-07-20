@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gator';
+    src: url('./Gator3-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+body, p {
+    font-family: 'Gator';
+    font-size: 20vh;
+}
