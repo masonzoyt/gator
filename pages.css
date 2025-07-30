@@ -6,6 +6,29 @@
     text-align: center;
 }
 
+.pg0 {
+    background-image: url('insidecover.webp')
+}
+
+
+.pg1 {
+    background-image: url('rightside.webp')
+}
+
+
+.pg2 {
+    background-image: url('leftside.webp')
+}
+
+
+.pg3 {
+    background-image: url('rightside.webp')
+}
+
+.pg4 {
+    background-image: url('leftside.webp')
+}
+
 body, p {
     font-family: 'Gator';
     font-size: 20vh;
