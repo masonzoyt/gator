@@ -26,24 +26,29 @@ body, p {
     font-size: clamp(20vw, 50vw, 60vw);
 }
 
-.nothandwriting{
+.fieldnotes{
     margin-left: 25vw; 
     margin-top:20vw;
-    font-size: 50vw;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-size: 40vw;
 }
+
 
 .pg0 {
     background-image: url('insidecover.webp');
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
-    font-size: clamp(10vw, 18vw, 30vw);
+    font-size: clamp(10vw, 18vw, 40vw);
 }
 
+.nothandwriting{
+    text-align: center; 
+    font-size: 40vw;
+    margin-top: 10vw;
+}
 
 .name{
-    margin-left: 30vw; /* Fixed typo: margins-left → margin-left */
+    margin-left: 40vw; /* Fixed typo: margins-left → margin-left */
     margin-top: 20vw;
 }
 
@@ -242,7 +247,7 @@ p {
 .prev-page-nav, .next-page-nav {
     position: fixed;
     bottom: 2vw;
-    font-size: 3vw;
+    font-size: 5vw;
     color: #222;
     text-decoration: none;
     background: rgba(255,255,255,0.7);
