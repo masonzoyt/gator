@@ -41,10 +41,12 @@ body, p {
     font-size: clamp(10vw, 18vw, 40vw);
 }
 
-.nothandwriting{
+.iflost{
     text-align: center; 
     font-size: 40vw;
     margin-top: 10vw;
+    margin-left: 5vw; 
+    margin-right: 4vw;
 }
 
 .name{
