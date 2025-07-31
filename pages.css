@@ -18,6 +18,13 @@ body, p {
     font-size: 5vw; /* Changed from 20vh to 5vw for responsive scaling */
 }
 
+.cover{
+    background-image: url('cover.webp');
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-size: clamp(10vw, 18vw, 30vw);
+}
 /* Add your page background rules here */
 .pg0 {
     background-image: url('insidecover.webp');
