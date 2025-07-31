@@ -23,9 +23,16 @@ body, p {
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
-    font-size: clamp(10vw, 18vw, 30vw);
+    font-size: clamp(20vw, 50vw, 60vw);
 }
-/* Add your page background rules here */
+
+.nothandwriting{
+    margin-left: 25vw; 
+    margin-top:20vw;
+    font-size: 50vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 .pg0 {
     background-image: url('insidecover.webp');
     background-size: 100% auto;
@@ -34,11 +41,6 @@ body, p {
     font-size: clamp(10vw, 18vw, 30vw);
 }
 
-.nothandwriting{
-    margin-left: 25vw; /* Fixed typo: margins-left → margin-left */
-    margin-top:20vw;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
 
 .name{
     margin-left: 30vw; /* Fixed typo: margins-left → margin-left */
