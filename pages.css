@@ -62,9 +62,22 @@ body, p {
     margin-left: 20vw;
 }
 
-.diagram1{ 
-    margin-left: 20vw;
+.diagram1 img{  
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4vh;
+}
 
+.diagram2 img {
+    max-width: 45%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -3vh; /* Negative value moves image up */
 }
 
 .pg2 {
@@ -81,9 +94,15 @@ body, p {
     margin-right: 10vw;
 }
 
-.diagram2{
-    margin-left: 15vw;
+.diagram3 img{
+    max-width: 45%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5vh; /* Negative value moves image up */
 }
+
 .pg3 {
     background-image: url('rightside.webp');
     background-size: 100% auto;
@@ -94,8 +113,17 @@ body, p {
 
 .entry3{
     font-size: 20vw;
-    margin-left: 10vw;
-    margin-right:15vw;
+    margin-left: 15vw;
+    margin-right:10vw;
+}
+
+.underline img{
+    max-width: 15%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -5vh;
 }
 
 .pg4{
@@ -131,15 +159,24 @@ body, p {
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
-    font-size: clamp(10vw, 18vw, 30vw);
+    font-size: clamp(10vw, 18vw, 28vw);
 }
 
 .entry6{
     font-size: 20vw;
     margin-left: 10vw;
     margin-right:15vw;
+    margin-top: -3%;
 }
 
+.diagram6 img{
+    max-width: 55%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -3vh; /* Negative value moves image up */
+}
 .content {
     max-width: 800px;
     margin: 0 auto;
