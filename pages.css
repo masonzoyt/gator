@@ -38,20 +38,19 @@ body, p {
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
-    font-size: clamp(10vw, 18vw, 40vw);
+    font-size: clamp(10vw, 18vw, 50vw);
 }
 
 .iflost{
-    text-align: center; 
     font-size: 40vw;
-    margin-top: 10vw;
-    margin-left: 5vw; 
-    margin-right: 4vw;
+    margin-top: 20vw;
+    margin-left: 20vw; 
+    margin-right: 8vw;
 }
 
 .name{
     margin-left: 40vw; /* Fixed typo: margins-left → margin-left */
-    margin-top: 20vw;
+    margin-top: 0vw;
 }
 
 .nextpage{
