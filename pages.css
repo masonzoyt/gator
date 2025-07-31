@@ -177,6 +177,15 @@ body, p {
     text-align: center;
     margin-top: -3vh; /* Negative value moves image up */
 }
+
+.story-book{
+    background-image: url('rightside.webp');
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-size: clamp(10vw, 18vw, 28vw);
+}
+
 .content {
     max-width: 800px;
     margin: 0 auto;
