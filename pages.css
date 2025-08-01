@@ -199,7 +199,11 @@ body, p {
     background-position: center top;
     background-repeat: no-repeat;
     font-size: clamp(10vw, 18vw, 28vw);
-    min-height: 100vh;
+ 
+}
+
+.title{
+    margins-top: 10vw;
     font-size: 20vw;
 }
 
