@@ -195,19 +195,34 @@ body, p {
 
 .story-book{
     background-image: url('rightside.webp');
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
     font-size: clamp(10vw, 18vw, 28vw);
+    min-height: 100vh;
+    font-size: 20vw;
+}
+
+.audio-player {
+    text-align: center;
+    margin: 2vw auto;
+    padding: 2vw;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1vw;
+    max-width: 60vw;
+}
+
+.audio-player audio {
+    width: 100%;
+    max-width: 50vw;
+    border-radius: 0.5vw;
 }
 
 .content {
     max-width: 800px;
     margin: 0 auto;
-    line-height: 1.6;
-    padding: 16px;
+    padding: 1vw;
 }
-
 
 img.wrap-left {
     float: left;
