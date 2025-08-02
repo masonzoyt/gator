@@ -92,7 +92,7 @@ body, p {
     display: block;
     margin: 0 auto;
     text-align: center;
-    margin-top: -3vh; /* Negative value moves image up */
+    margin-top: 3vh; /* Negative value moves image up */
 }
 
 .pg2 {
@@ -106,7 +106,7 @@ body, p {
 .entry2{
     font-size: 20vw;
     margin-left: 15vw;
-    margin-right: 10vw;
+    margin-right: 15vw;
 }
 
 .diagram3 img{
@@ -213,13 +213,10 @@ body, p {
 
 .story-book{
     background-image: url('rightside.webp');
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
-    font-size: clamp(10vw, 18vw, 28vw);
-    min-height: 100vh;
-    height: 100vh;
-    position: relative;
+    font-size: clamp(10vw, 18vw, 30vw);
 }
 
 .title{
