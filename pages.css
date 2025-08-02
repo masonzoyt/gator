@@ -178,6 +178,15 @@ body, p {
     margin-top: 3vw;
 }
 
+.stairs img{
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 7vw;
+}
+
 .pg6 {
     background-image: url('leftside.webp');
     background-size: 100% auto;
