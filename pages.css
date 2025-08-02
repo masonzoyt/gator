@@ -139,7 +139,7 @@ body, p {
     margin: 0 auto;
     text-align: center;
     margin-top: 3vw;
-
+}
 
 .pg4{
     background-image: url('leftside.webp');
@@ -229,6 +229,11 @@ body, p {
     border-radius: 0.5vw;
 }
 
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1vw;
+}
 
 img.wrap-left {
     float: left;
@@ -272,11 +277,12 @@ p {
     font-size: 5vw;
     color: #222;
     text-decoration: none;
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.9);
     padding: 0.5em 1em;
     border-radius: 8px;
-    z-index: 1000;
+    z-index: 9999;
     font-family: inherit;
+    display: block;
 }
 .prev-page-nav {
     left: 2vw;
