@@ -132,6 +132,14 @@ body, p {
     margin-right:10vw;
 }
 
+.montereycypress img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3vw;
+
 
 .pg4{
     background-image: url('leftside.webp');
