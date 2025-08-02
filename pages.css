@@ -169,6 +169,15 @@ body, p {
     margin-right: 10vw;
 }
 
+.sanddoodle img{
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3vw;
+}
+
 .pg6 {
     background-image: url('leftside.webp');
     background-size: 100% auto;
